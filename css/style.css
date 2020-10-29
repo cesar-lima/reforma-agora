@@ -108,10 +108,14 @@ button{
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    margin: 40px auto;
+    margin: 50px auto;
 }
 
 /*tabela*/
+#table{
+    padding: 30px;
+}
+
 #tabela{
     border: 1px solid black;
     border-spacing: -1px;
