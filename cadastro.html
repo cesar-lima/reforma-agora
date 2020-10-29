@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <title>Reforma Agora</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <img src="images/logoPequeno.png"/>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="precos.html">Lista de preços</a></li>
+        </ul>
+    </nav>
+    <form method="POST" id="cadastro" >
+        <fieldset id="usuario">
+            <legend>informações do usuário</legend> 
+            <p><label for="cnome">nome</label> <input type="text" name="tnome" id="cnome" size="40" maxlength="60" placeholder="nome completo"></p>
+            <p><label for="cmail">E-mail</label> <input type="email" name="tmail" id="cmail" placeholder="exemplo@gmail.com"></p> 
+            <p>data de nascimento <input type="date" name="tdate" id="cdate"></p> 
+            <p>telefone</p> 
+        </fieldset>
+        <fieldset id="endereco">
+            <legend>Endereço do Usuário</legend> 
+            <p><label>logradouro</label><input type="text" name="trua" id="crua" placeholder="Rua, Av, ..."></p>
+            <p><label>Número</label><input type="number" name="tnum" id="cnum"></p>
+            <p><label>estado</label><select name="test" id="cest">
+            <option selected>São Paulo</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio grande do sul</option>
+            <option>Amazonas</option>
+            <option>Alagoas</option>
+            </select>
+            </p>
+            <P><label>cidade</label><input type="text" name="tcidade" id="ccidade" placeholder="sua cidade"></P>
+        </fieldset>
+        <fieldset id="pedido">
+            <legend>Solicitar um Serviço</legend>
+            <p><textarea name="tsoli" id="csoli" cols="45" rows="5" placeholder="descreva aqui o serviço"></textarea></p>
+        </fieldset>
+        <p><button type="submit">Enviar</button></p>
+    </form>
+        <footer id="rodape">
+            <p>copyright &copy; - 2020 by César Lima Correia</p>
+            <p><a href="https://www.facebook.com/cesar.limacorreia.16" target="blank">facebook</a> | <a href="https://www.instagram.com/cesinha.lc/" target="blank">instagram</a></p>
+        </footer>
+</body>
+</html>
