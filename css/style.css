@@ -130,7 +130,8 @@ button{
 } 
 
 .colunatabela{
-    background-color: rgba(167, 37, 37,.850);
+    background-color: rgb(167, 37, 37);
+    color: #ffffff;
 }
 
 #tabela td{
