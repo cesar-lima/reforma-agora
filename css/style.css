@@ -139,6 +139,15 @@ button{
     padding: 5px;
 }
 
+.voltar {
+    color: #b7262d;
+    text-decoration: #b7262d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 @media screen and (min-width: 768px){
     #menu{
         float: left;
